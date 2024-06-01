@@ -1,7 +1,7 @@
 {{
     config(    
     enabled = true,
-    materialized = 'table',
+    materialized = 'view',
     tags=["payment"]
 ) 
 }}
